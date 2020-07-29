@@ -76,6 +76,10 @@ exclude_patterns = []
 #
 html_theme = "sphinx_rtd_theme"
 
+html_js_files = [
+    'https://unpkg.com/react@16/umd/react.development.js',
+    'https://unpkg.com/react-dom@16/umd/react-dom.development.js'
+]
 html_theme_options = {
     'logo_only': False,
     'display_version': False,
