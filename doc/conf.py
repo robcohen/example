@@ -77,7 +77,7 @@ exclude_patterns = []
 html_theme = "sphinx_rtd_theme"
 
 html_js_files = [
-    '.sphinx/_javascript/hotjar.js',
+    'js/hotjar.js',
 ]
 
 html_theme_options = {
